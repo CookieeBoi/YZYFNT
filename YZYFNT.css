@@ -1,0 +1,28 @@
+@font-face{
+    font-family: "YZYFNT";
+    src: url('yeezy_tstar-bold-webfont.ttf') format('truetype')
+}
+body{
+    background-color: rgb(23, 180, 200);
+    background-image: linear-gradient(rgb(23, 180, 200), rgb(102, 136, 141));
+    overflow: hidden;
+}
+
+.uvod{
+    margin-top: 5vh;
+    text-align: center;
+    font-family: "YZYFNT";
+}
+
+
+img{
+    max-width: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+img:hover{
+    opacity: 0.95;
+
+}
