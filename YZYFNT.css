@@ -2,6 +2,13 @@
     font-family: "YZYFNT";
     src: url('yeezy_tstar-bold-webfont.ttf') format('truetype')
 }
+
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: "YZYFNT";
+}
+
 body{
     background-color: rgb(23, 180, 200);
     background-image: linear-gradient(rgb(23, 180, 200), rgb(102, 136, 141));
@@ -11,9 +18,7 @@ body{
 .uvod{
     margin-top: 5vh;
     text-align: center;
-    font-family: "YZYFNT";
 }
-
 
 img{
     max-width: 400;
@@ -22,7 +27,23 @@ img{
     margin-right: auto;
     width: 40%;
 }
+
 img:hover{
     opacity: 0.95;
 
+}
+
+input{
+    border-radius: 3rem;
+    padding: 1rem 0rem;
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 15vw;
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    outline:none;
+}
+input:focus{
+    width: 25vw;
 }
