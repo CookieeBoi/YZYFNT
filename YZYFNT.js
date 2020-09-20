@@ -1,11 +1,13 @@
 let text = "Donda waiting room"
 let samohlasky = ('AEIOU' + 'aeiou').split("")
-let yzyfnt = text
-    .toUpperCase()
+function yzyfnt(text){
+    console.log(text.toUpperCase()
     .split('')
     .filter((charakter) => !samohlasky.includes(charakter))
     .join('')
+    )
+} 
+    
 
-
-console.log(yzyfnt)
+yzyfnt(text)
 console.log(samohlasky)

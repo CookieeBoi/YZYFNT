@@ -10,12 +10,23 @@
         <div class="uvod">
             <p>YZY CGN je:</p>
             <p>YZY CGN</p>
-            <input type="text" placeholder="YZY CGN">
+            <input type="text" placeholder="YZY CGN" id="YEZYFNT">
         </div>
         <br>
         <br>
-        <button type="button" onclick="alert('Cigan west neni cigan')">Test cigana westa [V2]</button>
+        <button type="button" onclick="yzyfnt()">Test</button>
+        <p id = "yep"></p>
         <img src="foamrunner_640_alpha.gif">
-
+        <script>
+            let samohlasky = ('AEIOU' + 'aeiou').split("")
+            function yzyfnt(){
+                let yes = document.getElementById("YEZYFNT").value
+                
+                document.getElementById("yep").innerHTML = yes.toUpperCase()
+                .split('')
+                .filter((charakter) => !samohlasky.includes(charakter))
+                .join('')
+            } 
+        </script>
     </body>
 </html>
