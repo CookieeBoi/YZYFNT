@@ -6,7 +6,7 @@
 * {
     margin: 0;
     padding: 0px;
-    font-family: "YZYFNT";
+    font-family: Helvetica, sans-serif;
 }
 
 body{
@@ -37,6 +37,13 @@ button{
     margin-right: auto;
 }
 
+.videjko{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
 img{
     max-width: 300;
     display: block;
@@ -62,6 +69,7 @@ input{
     font-size: 1.5rem;
     text-align: center;
     outline:none;
+    font-family: "YZYFNT";
 }
 input:focus{
     width: 25vw;
