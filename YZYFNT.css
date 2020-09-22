@@ -37,6 +37,19 @@ button{
     margin-right: auto;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: turquoise;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: tomato;
+    border: 1px solid salmon;
+    padding: 20px;
+}
+
 .videjko{
     display:flex;
     flex-direction: column;
