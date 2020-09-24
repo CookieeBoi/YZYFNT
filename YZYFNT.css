@@ -7,6 +7,7 @@ h1{
     margin: auto;
     text-align: center;
     font-family: "YZYFNT";
+    color: rgb(83, 83, 83);
 }
 
 * {
@@ -103,21 +104,22 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(189, 118, 118);
+    background-color: rgba(112, 128, 170, 0.424);
 }
 
 li{
     float: left;
+    transition-duration: 500ms;
 }
 
 li a{
     display: block;
-    color: red;
+    color: rgb(87, 87, 87);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover{
-    background-color: darkslateblue;
+    background-color: rgba(126, 116, 190, 0.637);
 }
